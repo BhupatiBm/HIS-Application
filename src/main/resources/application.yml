@@ -1,0 +1,23 @@
+server:
+  port: 4372
+  servlet:    context-path: /HIS
+spring:  mvc:    view:      prefix: /view/
+      suffix: .jsp
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    username: SYSTEM
+    password: manager
+    url: jdbc:oracle:thin:@localhost:1521/xe  
+  mail:    host: smtp.gmail.com
+    password: chahatakukura2023
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          connectiontimeout: 5000
+          starttls:
+            enable: true
+          timeout: 5000
+          writetimeout: 5000
+    username: oany71145@gmail.com

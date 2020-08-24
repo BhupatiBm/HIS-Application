@@ -1,0 +1,16 @@
+Hi {Fname} {Lname},
+<br/>
+Hope you are well and doing great in these days.
+<br/>
+<br/>
+Your Temporary Password is:{TempPassword}
+<br/>
+<br/>
+Click below link and unlock your CW account by using temporary password.
+<br/>
+<a href='http://localhost:4372/HIS/unlockAccountForm?email={Email}'>Unlock your Account</a>
+<br/>
+<br/>
+<br/>
+Thanks<br/>
+Regards HIS,NewJersy
